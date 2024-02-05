@@ -2,22 +2,22 @@
 
 // your_info.jsx
 
-const backgroundImageUrl = 'https://images.wallpaperscraft.com/image/single/man_photographer_roof_146991_3840x2400.jpg';
-
+//const backgroundImageUrl = 'https://images.wallpaperscraft.com/image/single/man_photographer_roof_146991_3840x2400.jpg';
+const backgroundImageUrl = 'https://images.pexels.com/photos/533424/pexels-photo-533424.jpeg';
 
 // Enter here your first and last name
 const name = {
-  firstname: 'Jonathan',
-  lastname: 'Dominion',
+  firstname: 'Shreya',
+  lastname: 'Banerjee',
 // Enter as url a link where your resume can be downloaded ( dropbox, OneDrive, ect )
   url: 'https://www.google.com',
 };
 
 // Display your job title or skills or whatever you want in the typewriter
 const typeWriterText = [
-  'Photographer...',
-  'UX/UI designer...',
-  'Cool dude...'  
+  'Civil law...',
+  'Criminal law...',
+  'Corporate...'  
 ];
 
 // Social media profiles buttons
@@ -27,22 +27,17 @@ const socialProfiles = [
     icon: 'lni lni-linkedin',
     url: 'https://www.linkedin.com/in/christoph-pfrommer',
   },
-  {
-    name: 'GitHub',
-    icon: 'lni lni-github',
-    url: 'https://github.com/Pfrommer1982',
-  },
   //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
   //   {
   //     name: 'Twitter',
   //     icon: 'lni lni-twitter',
   //     url: 'https://twitter.com/your-username',
   //   },
-  //   {
-  //     name: 'Facebook',
-  //     icon: 'lni lni-facebook',
-  //     url: 'https://facebook.com/your-username',
-  //   },
+     {
+       name: 'Facebook',
+       icon: 'lni lni-facebook',
+       url: 'https://www.facebook.com/profile.php?id=100089455119538&mibextid=ZbWKwL',
+     },
 ];
 
 //////////////////////////////////////// ** CONTENT SECTION **//////////////////////////////////////////////////

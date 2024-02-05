@@ -63,13 +63,6 @@ const Navbar = () => {
                   <span className='link-span'>Contact Me</span>
                 </a>
               </li>
-              <li className="nav-item">
-                <a href={url} className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>
-                    Resume<i className="icon lni lni-download"></i>
-                  </span>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
