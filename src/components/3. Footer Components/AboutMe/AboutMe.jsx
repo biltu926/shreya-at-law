@@ -15,7 +15,7 @@ const AboutMe = () => {
                 About me: <br />
               </h2>
 
-              <p className="wow fadeInUp" data-wow-delay=".4s">
+              <p  data-wow-delay=".4s">
                 <hr /> {infotext}
               
                 <hr />

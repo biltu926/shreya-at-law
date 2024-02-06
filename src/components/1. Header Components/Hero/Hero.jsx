@@ -21,8 +21,8 @@ const Hero = () => {
           <div className='hero-content'>
             <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
               <name>
-                <h1 className='first-name'>{firstname}</h1>
-                <h1 className='last-name'>{lastname}</h1>
+                <h1 className='first-name'>{firstname} {lastname}</h1>
+                <h2>Msc, LLB (Lawyer)</h2>
               </name>
             </div>
             <div className='typewriter-container wow fadeInLeft' data-wow-delay='.6s'>
@@ -37,6 +37,7 @@ const Hero = () => {
                   className='btn wow fadeInLeft'
                   data-wow-delay={`${index * 0.2 + 0.8}s`}
                   key={index}
+                  target="_blank"
                 >
                   <i className={`icon ${profile.icon}`}></i>
                 </a>

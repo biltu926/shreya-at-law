@@ -44,13 +44,13 @@ const Navbar = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#Skills" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
-                  <span className='link-span'>Skills</span>
+                  <span className='link-span'>Domains</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#Projects" className={`nav-link ${isMenuOpen ? 'not-blurred' : ''}`}>
 
-                  <span className='link-span'>Projects</span>
+                  <span className='link-span'>Interests</span>
                 </a>
               </li>
               <li className="nav-item">

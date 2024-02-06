@@ -14,14 +14,11 @@ const Skillz = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title">
-                            <h3 className="wow zoomIn" data-wow-delay=".2s">
-                                Skills
+                            <h3 className="wow fadeInUp" data-wow-delay=".4s">
+                            Let me be the voice to those in need.
                             </h3>
-                            <h2 className="wow fadeInUp" data-wow-delay=".4s">
-                            Exploring and Expanding My area of focus
-                            </h2>
                             <p className="wow fadeInUp" data-wow-delay=".6s">
-                            A diverse set of skills and technologies I have acquired to develop impactful solutions
+                            Aspiring lawyer and social activist.
                             </p>
                         </div>
                     </div>
@@ -36,18 +33,6 @@ const Skillz = () => {
                                 className="single-feature wow fadeInUp"
                                 data-wow-delay=".2s"
                             >
-                                <div className="skill-icons">
-                                    {category.skills.map((skill, index) => {
-                                        const iconClasses = skill.icon.split(' ');
-                                        return (
-                                            <i
-                                                key={index}
-                                                className={iconClasses.join(' ')}
-                                                title={skill.title}
-                                            ></i>
-                                        );
-                                    })}
-                                </div>
                                 <h3>{category.title}</h3>
                                 <p>{category.description}</p>
                             </div>

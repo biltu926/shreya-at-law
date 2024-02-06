@@ -31,9 +31,13 @@ const ContactMe = () => {
           <form ref={form} onSubmit={sendEmail} className='contact-form'>
             <h5 className='title'>Contact Me</h5>
             <p className='description'>
-              Feel free to contact me if you like to reach out or have any
-              questions.
+              Feel free to reach out for consultation or if you have any
+              questions regarding any kind of legal dispute.
             </p>
+            <div>
+              <p>shreyabanerjee1111@gmail.com</p>
+              <p>+91-7278371691</p>
+            </div>
             <div>
               <input
                 type='text'
