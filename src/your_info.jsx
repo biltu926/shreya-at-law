@@ -110,8 +110,8 @@ const categories = [
 
 // Here you can give in your achiements in a number counter animation
 const achievements = [
-  { word: 'Success rate', value: 100, unit: '%' },
-  { word: 'cases handled', value: 20, unit: '' },
+  { word: 'Legal experience', value: 2, unit: 'years' },
+  { word: 'banking experience', value: 20, unit: '' },
   { word: 'legal experience', value: 2, unit: ' years' },
 ];
 

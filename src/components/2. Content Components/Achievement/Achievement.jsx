@@ -30,21 +30,7 @@ const Achievement = () => {
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-md-12 col-12">
-            <div className="row">
-              {achievements.map((info, index) => (
-                <div className="col-lg-4 col-md-4 col-12" key={index}>
-                  <div ref={ref} className="single-achievement wow fadeInUp" data-wow-delay={(index * 0.2) + 's'}>
-                    {isVisible && (
-                      <h3 className="counter">
-                        <CountUp start={0} end={info.value} duration={4} separator="," />
-                        <span>{info.unit}</span>
-                      </h3>
-                    )}
-                    <p>{info.word}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+
           </div>
         </div>
       </div>
