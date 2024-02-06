@@ -25,7 +25,7 @@ const socialProfiles = [
   {
     name: 'LinkedIn',
     icon: 'lni lni-linkedin',
-    url: 'https://www.linkedin.com/in/christoph-pfrommer',
+    url: 'https://www.linkedin.com/in/shreya-banerjee-51930318b?trk=contact-info',
   },
   //   Add more social profiles here, it will automatically add more link-buttons with icons (if available)
   //   {
@@ -47,9 +47,9 @@ const categories = [
   {
     name: 'Web Development',
     icon: 'lni lni-code',
-    title: 'Photography',
+    title: 'Law',
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+      "I have been practicing for the last 2+ years in Alipore court, High court, and Baruipore court. I deal with cases involving land/real-estate registration, deed, mutation, will, divorce, and other criminal issues like domestic violence, animal cruelty, fraud etc.",
     skills: [
       {
         icon: 'lni lni-camera',
@@ -66,11 +66,11 @@ const categories = [
     ],
   },
   {
-    name: 'Software',
+    name: 'Non-profit',
     icon: 'lni lni-code',
-    title: 'Software',
+    title: 'Non profit',
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+    "I have been associated with an NGO based out of the tribal majority rural district of Purulia, West Bengal. My voluntary involvement includes managing, and co-ordinating govt. funded projects involving the unpriviledged among other things.",
     skills: [
       {
         icon: 'lni lni-adobe',
@@ -89,11 +89,10 @@ const categories = [
     ],
   },
   {
-    name: 'brands',
-    icon: 'lni lni-code',
-    title: 'Brands',
+    name: 'Animal walfare',
+    title: 'Animal walfare',
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.",
+    "Being an avid pet lover I rescue, and take care of stray pets. Additionally, I have been building a network of good samaritans to generate funds, medicines, and other essentials for an array of local animal NGOs, and individuals I am personaly involved with.",
     skills: [
       {
         icon: 'lni lni-pinterest',
@@ -111,9 +110,9 @@ const categories = [
 
 // Here you can give in your achiements in a number counter animation
 const achievements = [
-  { word: 'bullshit', value: 100, unit: '%' },
-  { word: 'finished projects', value: 7500, unit: '' },
-  { word: 'experience', value: 20, unit: ' years' },
+  { word: 'Success rate', value: 100, unit: '%' },
+  { word: 'cases handled', value: 20, unit: '' },
+  { word: 'legal experience', value: 2, unit: ' years' },
 ];
 
 
@@ -150,9 +149,15 @@ const projectData = [
 
 // You can tell something about yourself in the infotext.
 const aboutMeText = {
-  infotext: `Hi there, I'm Jonathan. With 20 years of experience as photographer Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam lorem, tempus at dapibus vitae, vehicula sit amet dui. Fusce at libero id massa ornare molestie sed eu tellus.
+  infotext: `Hi there, I'm Shreya with 2+ years of experience working in the legal system.
+            My expertise includes formulating property deeds, making wills, conducting property registrations,
+            drafting, fighting cases of domestic violence, divorce, criminal and legal fraud.
+            Before joining the legal industry, I worked at Axis bank as operations executive for 2 years.
+            I hold a first class BSc honours, and Msc in Computer science and LLB.
+            I am also actively associated with an NGO which works on women, and child development, and
+            are part of different animal welfare societies, and NGOs.
     `,
-  power_slogan: `Lorem ipsum dolor sit amet`,
+  power_slogan: `Thank you!`,
 };
 
 // For contact form: You need to make an account on emailjs.com
